@@ -23,7 +23,7 @@ O modelo relacional utilizado como ponto de partida possuía as seguintes tabela
 
 Esse modelo é voltado para operações transacionais e controle acadêmico, mas não é eficiente para análises gerenciais e relatórios sobre a atuação dos professores.
 
-![Modelo Relacional Original](./modelo_relacional_original.png)
+![Modelo Relacional Original](./der_universidade.png)
 
 ## 2. Processo de Negócio Identificado
 
@@ -95,7 +95,7 @@ Dim_Professor --- Fato_Atuacao_Docente --- Dim_Departamento
 
 Esse esquema facilita a geração de relatórios e análises de desempenho docente.
 
-![Esquema Estrela Final](./esquema_estrela_final.png)
+![Esquema Estrela Final](./ModeloDimensionalDocente.png)
 
 ## 5. Conclusão
 
